@@ -1,0 +1,35 @@
+.course-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .course-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .course-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .course-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .course-item p {
+    margin: 0;
+  }
+  
+  .course-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
