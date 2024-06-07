@@ -16,7 +16,7 @@ const CourseList: React.FC = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch('http://18.227.134.20:80:8080/api/courses', {
+        const response = await fetch('https://18.227.134.20/api/courses', {
           headers: {
             Authorization: `Bearer ${auth.token}`,
           },
