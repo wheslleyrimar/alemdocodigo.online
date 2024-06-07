@@ -18,7 +18,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   const login = async (username: string, password: string) => {
     try {
-      const response = await axios.post('http://18.227.134.20:8080/api/authenticate', { username, password });
+      const response = await axios.post('https://18.227.134.20:8080/api/authenticate', { username, password });
       setToken(response.data.jwt);
       setIsAuthenticated(true);
       navigate('/courses');
